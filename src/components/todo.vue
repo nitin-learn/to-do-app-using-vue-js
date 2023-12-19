@@ -24,7 +24,6 @@
 
 
 <script setup>
-
 const title = 'To Do App using Vue';
 let id = 1;
 let todotext = '';
