@@ -1,0 +1,36 @@
+@import './base.css';
+
+.form-one{
+  text-align: center;
+}
+
+.col-md-6 {
+  margin: 0 auto;
+  padding: 5rem;
+}
+
+.btn {
+  margin: 1rem auto;
+}
+
+.todo {
+  display: block;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.todo-buttons{
+  display: block;
+  margin: 1rem auto;
+}
+
+.form-check-input {
+  height: 35px;
+  width: 75px;  
+}
+
+.doneClass {
+  
+  color: white;
+  background:#1d944e;
+}
