@@ -11,9 +11,65 @@
   </head>
   <body>
 
-    <div id="app" class="col-md-6">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand mx-3" href="todo2.html"> To Do App</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto mx-3">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="login.html">Log In</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="todo.html">ToDo</a>
+          </li>
+              </ul>
+        
+      </div>
+    </nav>
+
+    <div class="col-md-6">
+      <form>
+        <h1 class="text-center">Login Form</h1>
+        <!-- Email input -->
+        <div class="form-outline mb-4">
+          <label class="form-label" for="form2Example1" >Email address</label>
+          <input type="email" id="form2Example1" class="form-control" placeholder="Email"/>
+        </div>
       
-    </div>
+        <!-- Password input -->
+        <div class="form-outline mb-4">
+          <label class="form-label" for="form2Example2">Password</label>
+          <input type="password" id="form2Example2" class="form-control" placeholder="Password"/>
+        </div>
+      
+      
+        <!-- Submit button -->
+        <button type="button" class="btn btn-primary btn-block mb-4">Sign in</button>
+      
+        <!-- Register buttons -->
+        <div class="text-center">
+          <button type="button" class="btn btn-link btn-floating mx-1">
+            <i class="fab fa-facebook-f"></i>
+          </button>
+      
+          <button type="button" class="btn btn-link btn-floating mx-1">
+            <i class="fab fa-google"></i>
+          </button>
+      
+          <button type="button" class="btn btn-link btn-floating mx-1">
+            <i class="fab fa-twitter"></i>
+          </button>
+      
+          <button type="button" class="btn btn-link btn-floating mx-1">
+            <i class="fab fa-github"></i>
+          </button>
+        </div>
+      </form>
 
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script src="https://unpkg.com/vue-router@4"></script>
